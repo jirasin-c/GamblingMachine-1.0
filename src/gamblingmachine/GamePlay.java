@@ -10,5 +10,18 @@ package gamblingmachine;
  * @author qbrickzx
  */
 public class GamePlay {
-    
+    public GamePlay() {
+
+    }
+
+    public static void menu() {
+        
+    }
+    public static String playCard() {
+        return "";
+    }
+    public static void slot(){
+        
+    }
 }
+  

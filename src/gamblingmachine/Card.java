@@ -105,5 +105,26 @@ public class Card {
                 
         }
         
+
     }
+    
+    public String compare(Card x){
+        if(x.number < this.number){
+            System.out.print("You win with : "); 
+            return this.resultPlayer;
+        }else if(x.number > this.number){
+            return "Sorry, betterluck next time!!";
+        }else if(x.number == this.number){
+            if(x.dok > this.dok){
+               return "You Win!!";
+            }else if(x.dok < this.dok){
+                return "You Lose!!";
+            }else{
+                return "Draw!!";
+            }
+        }
+        
+        return "";
+    }
+    
 }

@@ -41,6 +41,11 @@ public class GamePlay {
         }
     }
     public static String playCard() {
+        Card card1 = new Card(true);
+        Card card2 = new Card(false);
+        System.out.println(card1.compare(card2));
+        System.out.println("\n");
+        GamePlay.menu();
         return "";
     }
     public static void slot(){

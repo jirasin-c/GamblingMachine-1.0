@@ -44,7 +44,7 @@ public class GamePlay {
         return "";
     }
     public static void slot(){
-        
+        Slot.playSlot();
     }
 }
   

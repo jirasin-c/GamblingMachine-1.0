@@ -14,7 +14,7 @@ public class Player {
     public static int id;
     public static int coins;
     
-    public Player(String name, int id, double money){
+    public Player(String name, int id, int coins){
         this.name = name;
         this.id = id;
         this.coins = coins;

@@ -18,7 +18,6 @@ public class GamblingMachine {
         System.out.println("hello word");
         System.out.println("hello KEW");
         System.out.println("Hello James");
-        System.out.println("asdasd");
     }
     
 }

@@ -3,10 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gamblingmachine;
+package gamblingmachine.slotpackage;
 
+import gamblingmachine.playerpackage.Player;
 import java.util.Arrays;
 import java.util.Scanner;
+import gamblingmachine.gameplaypackage.GamePlay;
 
 /**
  *

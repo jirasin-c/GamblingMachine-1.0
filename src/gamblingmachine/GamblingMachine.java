@@ -5,6 +5,8 @@
  */
 package gamblingmachine;
 
+import gamblingmachine.gameplaypackage.GamePlay;
+
 /**
  *
  * @author qbrickzx

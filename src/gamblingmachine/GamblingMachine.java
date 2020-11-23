@@ -15,8 +15,7 @@ public class GamblingMachine {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        GamePlay game1 = new GamePlay();
-        game1.menu();
+        GamePlay.menu();
     }
     
 }
